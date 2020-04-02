@@ -91,7 +91,8 @@ select {
 	appearance: none;
 	background-image: url(chevron-down.svg);
 	background-repeat: no-repeat;
-	background-position: 95%;
+	background-position: right;
+	background-origin: content-box;
 	background-size: 20px;
 }
 
