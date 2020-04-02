@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="shortcut icon" href="assets/favicon.webp" type="image/webp"/>
 	<link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div class="content-container">
@@ -16,38 +16,38 @@
 		</div>
 
 		<div class="form-div">
-			<div class="">
+			<div class="header">
 				<h3>Create a Secure Account</h3>
 				<p class="welcome">Welcome to the future of Savings & Investments</p>
 			</div>
 
 			<form action="create-account.php" method="POST">
-				<p class="input-container">
+				<div class="input-container">
 					<label for="full-name">Full Name</label><br>
 					<input type="text" name="full-name" placeholder="Full Name">
-				</p>
+				</div>
 
-				<p class="input-container">
+				<div class="input-container">
 					<label for="email">Email Address</label><br>
 					<input type="email" name="email" placeholder="Email Address">
-				</p>
+				</div>
 
-				<p class="input-container">
+				<div class="input-container">
 					<label for="phone-number">Phone Number</label><br>
 					<input type="text" name="phone-number" placeholder="Phone Number">
-				</p>
+				</div>
 
-				<p class="input-container">
+				<div class="input-container">
 					<label for="password">Password</label><br>
 					<input type="password" name="password" placeholder="Password">
-				</p>
+				</div>
 
-				<p class="input-container">
+				<div class="input-container">
 					<label for="promo-code">Referrer Phone or Promo Code (Optional)</label><br>
 					<input type="text" name="promo-code" placeholder="Referrer Phone Or Code">
-				</p>
+				</div>
 
-				<p>
+				<div class="input-container">
 					<label for="medium">How did you hear about us? (Optional)</label><br>
 					<select name="medium">
 						<option>Click To Select</option>
@@ -62,7 +62,7 @@
 						<option>At an event</option>
 						<option>Other</option>
 					</select>
-				</p>
+				</div>
 
 				<button class="btn" type="submit">CREATE ACCOUNT</button>
 			</form>
