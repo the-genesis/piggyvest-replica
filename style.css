@@ -86,7 +86,7 @@ select {
 	border: none;
 	font-family: "Segoe UI", sans-serif;
 	font-size: 16px;
-	color: #1a202c80;
+	color: #1a202c;
 	line-height: 24px;
 	background-color: #EDF2F7;
 	padding: 16px;
@@ -144,4 +144,13 @@ option {
 
 .login:hover {
 	color: #b3b3b3;
+}
+
+input:focus {
+	border: none;
+	outline: none;
+}
+
+select:focus {
+	outline: none;
 }
