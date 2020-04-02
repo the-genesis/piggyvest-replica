@@ -74,7 +74,7 @@ h3 {
 	border-radius: 12px 12px 12px 0px;
 	color: #ffffff;
 	font-family: "Josefin Sans", sans-serif;
-	font-weight: 700;
+	font-weight: 500;
 	font-size: 14px;
 	line-height: 21px;
 	cursor: pointer;
@@ -114,5 +114,14 @@ input::placeholder {
 	font-size: 16px;
 	color: rgba(26, 32, 44, .5);
 	line-height: 24px;
+}
 
+/*Styling hover and focus states*/
+
+.btn:hover {
+	background-color: #062b6f;
+}
+
+.login:hover {
+	color: #b3b3b3;
 }
