@@ -87,6 +87,12 @@ select {
 	background-color: #EDF2F7;
 	padding: 16px;
 	border-radius: 3px;
+	-webkit-appearance: none;
+	appearance: none;
+	background-image: url(chevron-down.svg);
+	background-repeat: no-repeat;
+	background-position: 95%;
+	background-size: 20px;
 }
 
 input {
@@ -114,6 +120,15 @@ input::placeholder {
 	font-size: 16px;
 	color: rgba(26, 32, 44, .5);
 	line-height: 24px;
+}
+
+option {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 16px;
+	color: rgba(26, 32, 44, .5);
+	line-height: 24px;
+	background-color: #ffffff;
+	padding-top: 20px;
 }
 
 /*Styling hover and focus states*/
