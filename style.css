@@ -154,6 +154,9 @@ option {
 input:focus {
 	border: none;
 	outline: none;
+	color: #1a202c;
+	font-size: 16px;
+	line-height: 24px;
 }
 
 select:focus {
